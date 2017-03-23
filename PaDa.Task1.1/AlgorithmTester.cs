@@ -19,7 +19,7 @@ namespace PaDa.Task1
 
         public Tuple<int, TimeSpan>[] Test(PrefixScanBase prefixScan)
         {
-            return _generator.GenerateTestArrays(100, _maxElements, 100, _repeats).Select(array =>
+            return _generator.GenerateTestArrays(1000, _maxElements, 1000, _repeats).Select(array =>
             {
                 var watch = Stopwatch.StartNew();
                 prefixScan.Scan(array);

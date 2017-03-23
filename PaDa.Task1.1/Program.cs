@@ -7,16 +7,25 @@ namespace PaDa.Task1
     {
         static void Main(string[] args)
         {
-            var sequentialAlgo = new PrefixScanSequential();
-            var tester = new AlgorithmTester(100000, 20, new DataGenerator());
+            var tester = new AlgorithmTester(100000, 5, new DataGenerator());
 
-            var result = tester.Test(sequentialAlgo);
+            var result = tester.Test(new PrefixScanSequential());
 
-            using (var sw = new StreamWriter(File.OpenWrite("sequential.txt")))
+            using (var sw = new StreamWriter(File.OpenWrite("sequential.csv")))
             {
                 foreach (var s in result)
                 {
-                    sw.Write($"{s.Item1}, {s.Item2.TotalMilliseconds}");
+                    sw.Write($"{s.Item1}, {s.Item2.TotalMilliseconds}\n");
+                }
+            }
+
+            var result2 = tester.Test(new PrefixScanParallel());
+
+            using (var sw = new StreamWriter(File.OpenWrite("parallel.csv")))
+            {
+                foreach (var s in result2)
+                {
+                    sw.Write($"{s.Item1}, {s.Item2.TotalMilliseconds}\n");
                 }
             }
         }
