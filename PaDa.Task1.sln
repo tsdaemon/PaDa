@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaDa.Task1.Test", "PaDa.Task1.Test\PaDa.Task1.Test.csproj", "{2BE9CC3D-6402-46E3-8634-AEFD2071710E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaDa.Task1", "PaDa.Task1.1\PaDa.Task1.csproj", "{45E7A780-692E-4441-91F1-5F7D962DBCA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BE9CC3D-6402-46E3-8634-AEFD2071710E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE9CC3D-6402-46E3-8634-AEFD2071710E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE9CC3D-6402-46E3-8634-AEFD2071710E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE9CC3D-6402-46E3-8634-AEFD2071710E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45E7A780-692E-4441-91F1-5F7D962DBCA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E7A780-692E-4441-91F1-5F7D962DBCA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E7A780-692E-4441-91F1-5F7D962DBCA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E7A780-692E-4441-91F1-5F7D962DBCA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
