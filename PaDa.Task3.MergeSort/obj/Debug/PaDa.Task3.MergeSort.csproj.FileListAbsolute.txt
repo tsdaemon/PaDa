@@ -1,0 +1,14 @@
+C:\Users\Anatoliy\documents\visual studio 2017\Projects\PaDa.Task1\PaDa.Task3.MergeSort\bin\Debug\PaDa.Task3.MergeSort.exe.config
+C:\Users\Anatoliy\documents\visual studio 2017\Projects\PaDa.Task1\PaDa.Task3.MergeSort\bin\Debug\PaDa.Task3.MergeSort.exe
+C:\Users\Anatoliy\documents\visual studio 2017\Projects\PaDa.Task1\PaDa.Task3.MergeSort\bin\Debug\PaDa.Task3.MergeSort.pdb
+C:\Users\Anatoliy\documents\visual studio 2017\Projects\PaDa.Task1\PaDa.Task3.MergeSort\obj\Debug\PaDa.Task3.MergeSort.csprojResolveAssemblyReference.cache
+C:\Users\Anatoliy\documents\visual studio 2017\Projects\PaDa.Task1\PaDa.Task3.MergeSort\obj\Debug\PaDa.Task3.MergeSort.exe
+C:\Users\Anatoliy\documents\visual studio 2017\Projects\PaDa.Task1\PaDa.Task3.MergeSort\obj\Debug\PaDa.Task3.MergeSort.pdb
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Task3.MergeSort\obj\Debug\PaDa.Task3.MergeSort.csprojResolveAssemblyReference.cache
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Task3.MergeSort\obj\Debug\PaDa.Task3.MergeSort.exe
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Task3.MergeSort\obj\Debug\PaDa.Task3.MergeSort.pdb
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Task3.MergeSort\bin\Debug\PaDa.Task3.MergeSort.exe.config
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Task3.MergeSort\bin\Debug\PaDa.Task3.MergeSort.exe
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Task3.MergeSort\bin\Debug\PaDa.Task3.MergeSort.pdb
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Task3.MergeSort\bin\Debug\PaDa.Lib.dll
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Task3.MergeSort\bin\Debug\PaDa.Lib.pdb

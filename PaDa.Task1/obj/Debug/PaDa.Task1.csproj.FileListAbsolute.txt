@@ -1,0 +1,14 @@
+C:\Users\Anatoliy\documents\visual studio 2017\Projects\PaDa.Task1\PaDa.Task1.1\bin\Debug\PaDa.Task1.1.exe.config
+C:\Users\Anatoliy\documents\visual studio 2017\Projects\PaDa.Task1\PaDa.Task1.1\bin\Debug\PaDa.Task1.1.exe
+C:\Users\Anatoliy\documents\visual studio 2017\Projects\PaDa.Task1\PaDa.Task1.1\bin\Debug\PaDa.Task1.1.pdb
+C:\Users\Anatoliy\documents\visual studio 2017\Projects\PaDa.Task1\PaDa.Task1.1\obj\Debug\PaDa.Task1.csprojResolveAssemblyReference.cache
+C:\Users\Anatoliy\documents\visual studio 2017\Projects\PaDa.Task1\PaDa.Task1.1\obj\Debug\PaDa.Task1.1.exe
+C:\Users\Anatoliy\documents\visual studio 2017\Projects\PaDa.Task1\PaDa.Task1.1\obj\Debug\PaDa.Task1.1.pdb
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Task1\obj\Debug\PaDa.Task1.csprojResolveAssemblyReference.cache
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Task1\obj\Debug\PaDa.Task1.1.exe
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Task1\obj\Debug\PaDa.Task1.1.pdb
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Task1\bin\Debug\PaDa.Task1.1.exe.config
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Task1\bin\Debug\PaDa.Task1.1.exe
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Task1\bin\Debug\PaDa.Task1.1.pdb
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Task1\bin\Debug\PaDa.Lib.dll
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Task1\bin\Debug\PaDa.Lib.pdb

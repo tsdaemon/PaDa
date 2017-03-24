@@ -58,7 +58,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PaDa.Task1.1\PaDa.Task1.csproj">
+    <ProjectReference Include="..\PaDa.Lib\PaDa.Lib.csproj">
+      <Project>{0888dc4c-9f09-49cc-b17f-b94c9cdd72e2}</Project>
+      <Name>PaDa.Lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PaDa.Task1\PaDa.Task1.csproj">
       <Project>{45e7a780-692e-4441-91f1-5f7d962dbca3}</Project>
       <Name>PaDa.Task1</Name>
     </ProjectReference>

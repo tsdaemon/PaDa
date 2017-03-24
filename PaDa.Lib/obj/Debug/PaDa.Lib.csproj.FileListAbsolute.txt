@@ -1,0 +1,5 @@
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Lib\bin\Debug\PaDa.Lib.dll
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Lib\bin\Debug\PaDa.Lib.pdb
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Lib\obj\Debug\PaDa.Lib.csprojResolveAssemblyReference.cache
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Lib\obj\Debug\PaDa.Lib.dll
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Lib\obj\Debug\PaDa.Lib.pdb

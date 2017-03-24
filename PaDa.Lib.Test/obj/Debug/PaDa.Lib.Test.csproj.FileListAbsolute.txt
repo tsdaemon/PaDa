@@ -1,0 +1,16 @@
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Lib.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Lib.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Lib.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Lib.Test\bin\Debug\PaDa.Lib.Test.dll
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Lib.Test\bin\Debug\PaDa.Lib.Test.pdb
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Lib.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Lib.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Lib.Test\bin\Debug\nunit.framework.dll
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Lib.Test\bin\Debug\PaDa.Lib.dll
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Lib.Test\bin\Debug\PaDa.Lib.pdb
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Lib.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Lib.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Lib.Test\bin\Debug\nunit.framework.xml
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Lib.Test\obj\Debug\PaDa.Lib.Test.csprojResolveAssemblyReference.cache
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Lib.Test\obj\Debug\PaDa.Lib.Test.dll
+C:\Users\Anatoliy\Documents\Visual Studio 2017\Projects\PaDa\PaDa.Lib.Test\obj\Debug\PaDa.Lib.Test.pdb

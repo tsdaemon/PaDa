@@ -1,11 +1,12 @@
 ﻿using NUnit.Framework;
+using PaDa.Lib;
 
 namespace PaDa.Task1.Test
 {
     [TestFixture]
     public class PrefixScanParallelTest
     {
-        private DataGenerator mGenerator;
+        private ArrayGenerator mGenerator;
         private PrefixScanParallel mScan;
         private PrefixScanSequential mScanCheck;
 
@@ -14,7 +15,7 @@ namespace PaDa.Task1.Test
         {
             mScan = new PrefixScanParallel();
             mScanCheck = new PrefixScanSequential();
-            mGenerator = new DataGenerator();
+            mGenerator = new ArrayGenerator();
         }
 
         [Test]
