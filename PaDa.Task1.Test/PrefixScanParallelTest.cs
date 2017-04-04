@@ -1,12 +1,12 @@
 ﻿using NUnit.Framework;
 using PaDa.Lib;
+using PaDa.Lib.Generators;
 
 namespace PaDa.Task1.Test
 {
     [TestFixture]
     public class PrefixScanParallelTest
     {
-        private ArrayGenerator mGenerator;
         private PrefixScanParallel mScan;
         private PrefixScanSequential mScanCheck;
 
@@ -15,7 +15,6 @@ namespace PaDa.Task1.Test
         {
             mScan = new PrefixScanParallel();
             mScanCheck = new PrefixScanSequential();
-            mGenerator = new ArrayGenerator();
         }
 
         [Test]
@@ -45,7 +44,7 @@ namespace PaDa.Task1.Test
         [Test]
         public void GeneratedTest()
         {
-            var arrays = mGenerator.GenerateTestArrays(100, 1000, 50, 1);
+            var arrays = new ArrayGenerator(10000, 500, 1).GenerateTestArrays();
             foreach (var array in arrays)
             {
                 var arrayCopy = (int[])array.Clone();

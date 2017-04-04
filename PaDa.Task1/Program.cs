@@ -1,6 +1,7 @@
 ﻿ using System;
 using System.IO;
  using PaDa.Lib;
+ using PaDa.Lib.Generators;
 
 namespace PaDa.Task1
 {
@@ -8,7 +9,7 @@ namespace PaDa.Task1
     {
         static void Main(string[] args)
         {
-            var tester = new ArrayAlgorithmTester(100000, 5, new ArrayGenerator());
+            var tester = new ArrayAlgorithmTester(new ArrayGenerator(1000, 100000, 3));
 
             var result = tester.Test(new PrefixScanSequential());
 
