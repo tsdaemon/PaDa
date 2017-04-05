@@ -1,7 +1,9 @@
 # Homework for course Parallel and Distributed algorithms
 
-Task 1 - parallel prefix sum
+PaDa.Lib - common utils for data generation, speed testing, binary search, threads manipulations
 
-Task 2 - parallel matrix multiplication
+PaDa.Task1 - parallel prefix sum
 
-Task 3 - parallel merge sort
+PaDa.Task2 - parallel matrix multiplication, unfinished
+
+PaDa.Task3.MergeSort - parallel merge sort
