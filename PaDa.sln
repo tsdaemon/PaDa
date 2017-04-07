@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaDa.Lib", "PaDa.Lib\PaDa.L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaDa.Lib.Test", "PaDa.Lib.Test\PaDa.Lib.Test.csproj", "{2392864F-2C94-4A7D-8E98-BFE239447C09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaDa.Task4.MapReduce", "PaDa.Task4.MapReduce\PaDa.Task4.MapReduce.csproj", "{F360B8C4-59B6-46C6-A477-24E9CF146C81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaDa.Task4.MapReduce.Test", "PaDa.Task4.MapReduce.Test\PaDa.Task4.MapReduce.Test.csproj", "{5B87582C-EE5A-43DF-AAEB-E91F66837D2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{2392864F-2C94-4A7D-8E98-BFE239447C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2392864F-2C94-4A7D-8E98-BFE239447C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2392864F-2C94-4A7D-8E98-BFE239447C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F360B8C4-59B6-46C6-A477-24E9CF146C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F360B8C4-59B6-46C6-A477-24E9CF146C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F360B8C4-59B6-46C6-A477-24E9CF146C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F360B8C4-59B6-46C6-A477-24E9CF146C81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B87582C-EE5A-43DF-AAEB-E91F66837D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B87582C-EE5A-43DF-AAEB-E91F66837D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B87582C-EE5A-43DF-AAEB-E91F66837D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B87582C-EE5A-43DF-AAEB-E91F66837D2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

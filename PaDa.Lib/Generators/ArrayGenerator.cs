@@ -6,30 +6,32 @@ namespace PaDa.Lib.Generators
 {
     public class ArrayGenerator
     {
-        private int _maxValue;
-        private int _minValue;
+        private int _maxLength;
+        private int _minLength;
         private int _repeats;
+        private int _minValue;
+        private int _maxValue;
 
-        public ArrayGenerator(int minValue, int maxValue, int repeats)
+        public ArrayGenerator(int minLength, int maxLength, int repeats, int minValue = int.MinValue, int maxValue = int.MaxValue)
         {
-            if (minValue > maxValue) throw new Exception("Wrong generator arguments!");
-            _maxValue = maxValue;
+            if (minLength > maxLength) throw new Exception("Wrong generator arguments!");
+            _maxLength = maxLength;
+            _minLength = minLength;
             _minValue = minValue;
+            _maxValue = maxValue;
             _repeats = repeats;
         }
 
         public IEnumerable<int[]> GenerateTestArrays()
         {
-            for (var n = _minValue; n <= _maxValue; n += GetZeros(n))
+            for (var n = _minLength; n <= _maxLength; n += GetZeros(n))
             {
-                var Min = int.MinValue / n;
-                var Max = int.MaxValue / n;
                 var randNum = new Random();
                 for (var i = 0; i < _repeats; i++)
                 {
                     yield return Enumerable
                         .Repeat(0, n)
-                        .Select(_ => randNum.Next(Min, Max))
+                        .Select(_ => randNum.Next(_minValue, _maxValue))
                         .ToArray();
                 }
             }
