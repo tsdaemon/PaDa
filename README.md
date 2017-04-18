@@ -7,3 +7,5 @@ PaDa.Task1 - parallel prefix sum
 PaDa.Task2 - parallel matrix multiplication, unfinished
 
 PaDa.Task3.MergeSort - parallel merge sort
+
+PaDa.Task4.MapReduce - map reduce emulation
