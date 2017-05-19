@@ -287,11 +287,5 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 
-*.iml
-*.ipr
-*.iws
-.idea
-out
-
-target
-*.class
+.idea/*.*
+.idea/**/*.*
