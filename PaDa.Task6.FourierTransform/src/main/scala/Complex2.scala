@@ -7,7 +7,7 @@ import math.{acos, cos, max, min, sin, signum}
   *  @param re  the real part
   *  @param im  the imaginary part
   */
-case class Complex2 (val re: Double, val im: Double = 0.)
+case class Complex2 (val re: Double, val im: Double = 0.0)
   extends Fractional [Complex2] with Ordered [Complex2]
 {
 
@@ -39,10 +39,10 @@ case class Complex2 (val re: Double, val im: Double = 0.)
   def / (r: Double) = Complex2 ((re * r) / (r * r), (im * r) / (r * r))
   def div (c: Complex2, r: Double) = c / r
 
-  def ~^ (r: Double) = { val (rad, ang) = polar; Complex2.create (rad ~^ r, ang * r) }
+  def ~^ (r: Double) = { val (rad, ang) = polar; Complex2.create (Math.pow(rad,r), ang * r) }
   def pow (c: Complex2, r: Double) = c ~^ r
 
-  def radius: Double = math.sqrt (re ~^ 2. + im ~^ 2.)
+  def radius: Double = math.sqrt (re *re + im *im)
 
   def angle: Double = acos (re / radius)
 
@@ -56,7 +56,7 @@ case class Complex2 (val re: Double, val im: Double = 0.)
 
   def min (c: Complex2) = if (c < this) c else this
 
-  def isRe = im == 0.
+  def isRe = im == 0.0
 
   def compare (c: Complex2, d: Complex2) =
   {
@@ -94,26 +94,24 @@ case class Complex2 (val re: Double, val im: Double = 0.)
 
   override def hashCode: Int = re.hashCode + 41 * im.hashCode
 
-  override def toString = s"$re ${if(im>=0) "+" else "-"} $im"
+  override def toString = s"$re ${if(im>=0) "+" else "-"} ${Math.abs(im)}"
 
-} // Complex2 class
-
-
+}
 
 object Complex2
 {
 
-  val _0  = Complex2 (0.)
+  val _0  = Complex2 (0.0)
 
-  val _1  = Complex2 (1.)
+  val _1  = Complex2 (1.0)
 
-  val _i  = Complex2 (0., 1.)
+  val _i  = Complex2 (0.0, 1.0)
 
-  val _1n = Complex2 (-1.)
+  val _1n = Complex2 (-1.0)
 
-  val _in = Complex2 (0., -1.)
+  val _in = Complex2 (0.0, -1.0)
 
-  private val rr2 = 1. / math.sqrt (2.)   // reciprocal root of 2.
+  private val rr2 = 1.0 / math.sqrt (2.0)   // reciprocal root of 2.
 
   def create (rad: Double, ang: Double): Complex2 = Complex2 (rad * cos (ang), rad * sin (ang))
 
