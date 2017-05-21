@@ -11,7 +11,7 @@ class DFTSpec extends FlatSpec
 
   val real = (0 to 255).map(i => Math.cos(0.1*i)).toArray
   val imaginary = (0 to 255).map(i => Math.sin(0.1*i)).toArray
-  val complex = real zip imaginary map {case (re, im) => Complex2(re, im)}
+  val complex = real zip imaginary map {case (re, im) => Complex(re, im)}
   val dft = new DFT
   val sun_fft = new SunFFT
   val ERROR = 0.0001
