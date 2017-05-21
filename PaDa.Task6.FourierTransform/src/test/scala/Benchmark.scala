@@ -22,10 +22,9 @@ object Benchmark extends Bench[Double] {
   )
   lazy val persistor = JSONSerializationPersistor(new File("target/benchmarks/sun"))
 
-   val sizes = Gen.exponential("Input size")(256, 1024*4, 2).cached
+   val sizes = Gen.exponential("Input size")(256, 1024*64, 2).cached
 
   val complexSequences = for (sz <- sizes) yield {
-    println(sz)
     val real = (0 to (sz-1)).map(i => Math.cos(0.1*i)).toArray
     val imaginary = (0 to (sz-1)).map(i => Math.sin(0.1*i)).toArray
     real zip imaginary map {case (re, im) => Complex(re, im)}
