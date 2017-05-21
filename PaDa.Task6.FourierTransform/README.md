@@ -6,3 +6,6 @@ good advance in performance in comparison with sequential FFT. But they still ca
 
 Here is the reports from [ScalaMeter](http://scalameter.github.io):
 
+[With DFT](http://htmlpreview.github.io/?https://github.com/tsdaemon/PaDa/blob/master/PaDa.Task6.FourierTransform/report/with_dft/index.html)
+
+[With Java FFT](http://htmlpreview.github.io/?https://github.com/tsdaemon/PaDa/blob/master/PaDa.Task6.FourierTransform/report/with_fft/index.html)
